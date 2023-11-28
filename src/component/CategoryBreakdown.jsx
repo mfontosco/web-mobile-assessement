@@ -5,7 +5,7 @@ import { MdOutlineSavings } from "react-icons/md";
 
 const CategoryBreakdown =()=>{
     return (
-        <Box className="category-breakdown" overflowY={"scroll"}>
+        <Box className="category-breakdown" >
         <Text fontWeight="500" lineHeight={"24px"} fontSize="21px" color="black">Category Breakdown</Text>
         <Flex justifyContent={"space-between"} gap="2" alignItems={"center"}  mt="4">
            <Box display={"flex"} gap={"2"}>

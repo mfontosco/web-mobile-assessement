@@ -8,7 +8,7 @@ const Home = ({ children }) => {
         {children}
       </Box>
 
-      <Box display={{ base: "block", md: "none" }} position="sticky" bottom="0" left="0" right="0">
+      <Box display={{ base: "block", md: "none" }} position="absolute" bottom="0" left="0" right="0">
         <NavBar />
       </Box>
     </Box>

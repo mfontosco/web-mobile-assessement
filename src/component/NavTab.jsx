@@ -1,10 +1,10 @@
 import { Text,Box,Flex,Tabs, TabList, TabPanels, Tab, TabPanel, TabIndicator } from '@chakra-ui/react';
 import Progress from './Progress';
-import CategoryBreakdown from './CategoryBreakdown';
+
 
 const NavTab = () => {
   return (
-    <Tabs position="relative" variant="unstyled" mt="10px" overflowY={"auto"}>
+    <Tabs  variant="unstyled" mt="10px">
       <TabList>
         <Flex justifyContent="space-between" gap="20" alignItems="center">
         <Box display="flex">
