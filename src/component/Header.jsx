@@ -6,7 +6,7 @@ const Header =()=>{
                 <Heading as="h1" size="lg" fontSize="28px" fontWeight="Bold">Budget</Heading>
             </Flex>
             <Flex alignItems="center" gap="2" mb>
-            <Box fontSize="14px" h={"30px"} w={"30px"} bg={"#80b1e2"} color={"#1e76cd"} display={"flex"}
+            <Box fontSize="14px" h={"30px"} w={"30px"} bg={"rgba(4, 102, 200, 0.2)"} color={"#0466C8"} display={"flex"}
             justifyContent={"center"} alignItems={"center"} borderRadius={"50%"}>&#x20A6;</Box>
             <Text fontSize="14px" fontWeight="400px">Monthly Budget</Text>
             </Flex>
