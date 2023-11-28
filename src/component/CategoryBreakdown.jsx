@@ -48,7 +48,7 @@ const CategoryBreakdown =()=>{
             </Box>
            </Box> 
            <Box fontWeight="400" fontSize="16px" display={"flex"} justifyContent={"center"}  flexDir={"column"}>
-           <Text fontWeight="400" fontSize="16px" color={"#001233"} lineHeight={"30.5px"} display={"flex"}>&#x20A6;20,000/<Text color='#C1C4CD'>&#x20A6;42,000</Text></Text>
+           <Text fontWeight="400" fontSize="16px" color={"#001233"} lineHeight={"30.5px"} display={"flex"}>&#x20A6;10,000/<Text color='#C1C4CD'>&#x20A6;24,000</Text></Text>
                 
             </Box>
         </Flex>
