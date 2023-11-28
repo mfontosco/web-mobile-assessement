@@ -3,7 +3,7 @@ import Progress from './Progress';
 
 const NavTab = () => {
   return (
-    <Tabs position="relative" variant="unstyled" mt="10px">
+    <Tabs position="relative" variant="unstyled" mt="10px" overflowY={"auto"}>
       <TabList>
         <Flex justifyContent="space-between" gap="20" alignItems="center">
         <Box display="flex">
@@ -15,7 +15,7 @@ const NavTab = () => {
       <TabIndicator mt="-1.5px" height="2px" bg="blue.500" borderRadius="1px" width="50%" />
       <TabPanels>
         <TabPanel>
-          <p>one!</p>
+          {/* <p>one!</p> */}
         </TabPanel>
         <TabPanel display={"flex"} alignItems={"center"} justifyContent={"center"} flexDir={"column"}>
             <Progress mb="5px" />

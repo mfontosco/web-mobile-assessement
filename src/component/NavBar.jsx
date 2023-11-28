@@ -11,27 +11,27 @@ const NavBar =()=>{
         background="#ffffff"  p={"2"}>
                 <Flex  justifyContent="space-between" gap="2">
                     <Box display="flex" flexDir="column" gap={"2"} justifyContent="center" alignItems="center">
-                    <PiHouseThin size="24px"/>
-                    <h4>Home</h4>
+                    <PiHouseThin size="24px" color="#707480"/>
+                    <h4 color="#707480">Home</h4>
                     
                     </Box>
                     <Box display="flex" flexDir="column" gap={"2"} justifyContent="center" alignItems="center">
                     
-                    <BiSolidReport size="24px"/>
-                    <h4>
+                    <BiSolidReport color="#707480" size="24px"/>
+                    <h4 color="#707480">
                     Report
                     </h4></Box>
                     <Box display="flex" flexDir="column" gap={"2"} justifyContent="center" alignItems="center">
-                    <GoReport size="24px" />
-                    <h2 >Chat</h2>
+                    <GoReport size="24px" color="#707480" />
+                    <h2 color="#707480" >Chat</h2>
                     </Box>
                     <Box display="flex" gap={"2"} flexDir="column" justifyContent="center" alignItems="center">
                     <MdOutlineBarChart size="24px" bg="#0466C8" color="#0466C8"/>
-                    <h4>Budget</h4>
+                    <h4 color="#001233">Budget</h4>
                     </Box>
                     <Box display="flex" gap={"2"} flexDir="column" justifyContent="center" alignItems="center">
-                    <FaRegUser size="24px"/>
-                    <h4>Profile</h4></Box>
+                    <FaRegUser size="24px" color="#707480"/>
+                    <h4 color="#707480">Profile</h4></Box>
                 </Flex>
             </Box>
         </Box>
