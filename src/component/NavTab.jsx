@@ -1,5 +1,6 @@
 import { Text,Box,Flex,Tabs, TabList, TabPanels, Tab, TabPanel, TabIndicator } from '@chakra-ui/react';
 import Progress from './Progress';
+import CategoryBreakdown from './CategoryBreakdown';
 
 const NavTab = () => {
   return (
@@ -21,6 +22,7 @@ const NavTab = () => {
             <Progress mb="5px" />
             <Text pl={"20px"} fontWeight={"400"} mt="5px" mb={"5px"}>Amount spent so far</Text>
             <Text display={"flex"} color="#0466C8" fontSize="16px" lineHeight={"30px"} fontWeight="400">&#x20A6;50,000/<Text color={"#67A2DC"}>&#x20A6;120,000</Text></Text>
+            {/* <CategoryBreakdown/> */}
         </TabPanel>
       </TabPanels>
     </Tabs>
